@@ -53,8 +53,11 @@ if comp != user:
         print("user wins")
     elif comp>user:
         print("comp wins")
-    else :
+    else:
         print("user wins")
 
-else:
+elif comp == user:
     print("Draw")
+else:
+    print("Invalid")
+
